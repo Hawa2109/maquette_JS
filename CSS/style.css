@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-carousel {
+    background: url(../images/concrete_seamless.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 90vh; */
+}
+.carousel-item, .carousel-wrap-items {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: 10px solid #fff;
+    border-radius: 5px;  
+}
+.carousel-wrap-items {
+    transform: rotate(-5deg); 
+    box-shadow: -8px 2px 16px 17px rgba(0, 0, 0, 0.1);
+}
+body.dark-mode {
+    background-color: #121212;
+}
+
