@@ -7,7 +7,7 @@
 /* Scroll barre */
 .progress {
   height: 6px;
-  top: 43px;
+  top: 50px;
   z-index: 9999;
   background-color: transparent;
 }
@@ -43,7 +43,7 @@ body.dark-mode {
   color: #fff;
 
   .navbar {
-    background-color: #333;
+    background-color: #333 !important;
   }
   .nav-link {
     color: #fff !important;
