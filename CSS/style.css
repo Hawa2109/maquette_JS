@@ -21,6 +21,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 .carousel-item,
 .carousel-wrap-items {
@@ -33,6 +34,9 @@
 .carousel-wrap-items {
   transform: rotate(-5deg);
   box-shadow: -8px 2px 16px 17px rgba(0, 0, 0, 0.1);
+}
+.contol-btn:not(:last-child) {
+  border-right: 2px solid #555;
 }
 footer .col {
   margin-bottom: 20px;

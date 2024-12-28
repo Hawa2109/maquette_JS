@@ -42,7 +42,7 @@ boutonAbonner.addEventListener("click", () => {
 
 // ********************************* pour la Carrousel ***************************
 // Sélectionner les éléments de la carousel
-let carousel = document.querySelector("#carouselExample");
+let carousel = document.querySelector("#carouselExampleAutoplaying");
 let prevBtn = document.getElementById("prevBtn");
 let nextBtn = document.getElementById("nextBtn");
 let playBtn = document.getElementById("playBtn");
