@@ -1,28 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.section-carousel {
-    background: url(../images/concrete_seamless.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* height: 90vh; */
+/* Scroll barre */
+.progress {
+  height: 6px;
+  top: 43px;
+  z-index: 9999;
+  background-color: transparent;
 }
-.carousel-item, .carousel-wrap-items {
-    width: 600px;
-    height: 300px;
-    margin: 0 auto;
-    border: 10px solid #fff;
-    border-radius: 5px;  
+.progress-bar {
+  width: 70%;
+  background-color: #252222;
+  transition: width 0.2s ease-in-out;
+}
+.section-carousel {
+  background: url(../images/concrete_seamless.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item,
+.carousel-wrap-items {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: 10px solid #fff;
+  border-radius: 5px;
 }
 .carousel-wrap-items {
-    transform: rotate(-5deg); 
-    box-shadow: -8px 2px 16px 17px rgba(0, 0, 0, 0.1);
+  transform: rotate(-5deg);
+  box-shadow: -8px 2px 16px 17px rgba(0, 0, 0, 0.1);
 }
+footer .col {
+  margin-bottom: 20px;
+}
+/* mode sombre */
 body.dark-mode {
-    background-color: #121212;
-}
+  background-color: #252222;
+  color: #fff;
 
+  .navbar {
+    background-color: #333;
+  }
+  .nav-link {
+    color: #fff !important;
+  }
+  .progress-bar {
+    background-color: #fff;
+  }
+  main {
+    background-color: #11244fee !important;
+  }
+
+  .section-carousel {
+    background: url(../images/Background_dark.jpg);
+  }
+  .btn-ab {
+    background-color: orange;
+    color: #333;
+  }
+}
